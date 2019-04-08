@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>
+MyChat
+</h1>
+<input type="text" id="us" />
+<br/>
+<input type="password" id="ps" />
+<br/>
+<input type="button" id="bs" value ="login" onclick= login() />
+<form>
+
+<script>
+    function login() {
+        var text1 = document.getElementById("us");
+        var text2 = document.getElementById("ps");
+        if (text1.value ==text2.value){
+            window.alert("Ingreso exitoso!");
+        }
+    }
+</script>
+</form>
+</body>
+</html>
